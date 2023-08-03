@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo
+    username: root
+    password: jaca57688
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  application:
+    name: SpringJwtAuthorization
+
+app:
+  jwt:
+    secret: $YX#Q3(FjhzsRPZ2rF&u9B(r9Mt$qa99vrJjJIfgrg4^N6qRh@@7c&5eurjsM+gp
